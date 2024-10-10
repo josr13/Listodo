@@ -6,13 +6,17 @@
     "devStart": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "josr13",
   "license": "ISC",
-  "description": "",
+  "description": "Listodo: A todo list app",
   "dependencies": {
-    "express": "^4.21.0"
+    "@prisma/client": "^5.20.0",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.7",
+    "prisma": "^5.20.0"
   }
 }
